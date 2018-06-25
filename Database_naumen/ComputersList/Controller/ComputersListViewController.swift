@@ -16,9 +16,6 @@ class ComputersListViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        tableView.estimatedRowHeight = 110
-        tableView.rowHeight = UITableViewAutomaticDimension
-        
         ComputersListNetworkService.getComputersList { (response) in
             self.computers = response.computers
             self.tableView.reloadData()
