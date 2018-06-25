@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Computers List View Controller-->
+        <!--Computer database-->
         <scene sceneID="3q0-nx-LOs">
             <objects>
                 <tableViewController id="iQq-P5-xiW" customClass="ComputersListViewController" customModule="Database_naumen" customModuleProvider="target" sceneMemberID="viewController">
@@ -99,7 +99,7 @@
                             <outlet property="delegate" destination="iQq-P5-xiW" id="H0h-aq-eXn"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="pTx-hq-Z5f"/>
+                    <navigationItem key="navigationItem" title="Computer database" id="pTx-hq-Z5f"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eI9-B5-U1e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
