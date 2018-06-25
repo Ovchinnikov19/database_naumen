@@ -25,8 +25,8 @@
                                     <rect key="frame" x="0.0" y="0.0" width="341" height="109.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="WBE-WM-rTk">
-                                            <rect key="frame" x="5" y="5" width="331" height="99.5"/>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="WBE-WM-rTk">
+                                            <rect key="frame" x="5" y="5" width="331" height="100"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="LYZ-Fy-5g8">
                                                     <rect key="frame" x="0.0" y="0.0" width="331" height="50"/>
@@ -45,46 +45,38 @@
                                                         </label>
                                                     </subviews>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="50" id="27I-t8-5kp"/>
-                                                        <constraint firstItem="K2l-7g-aSs" firstAttribute="width" secondItem="5wZ-id-D52" secondAttribute="width" id="4Ru-yB-Xs9"/>
-                                                        <constraint firstAttribute="trailing" secondItem="5wZ-id-D52" secondAttribute="trailing" id="Txa-3v-mfB"/>
-                                                        <constraint firstItem="5wZ-id-D52" firstAttribute="top" secondItem="LYZ-Fy-5g8" secondAttribute="top" id="aZZ-Ao-b3m"/>
-                                                        <constraint firstItem="5wZ-id-D52" firstAttribute="width" secondItem="LYZ-Fy-5g8" secondAttribute="width" id="kYp-2g-IYo"/>
-                                                        <constraint firstItem="5wZ-id-D52" firstAttribute="leading" secondItem="LYZ-Fy-5g8" secondAttribute="leading" id="pcr-CR-4nO"/>
+                                                        <constraint firstItem="K2l-7g-aSs" firstAttribute="width" secondItem="LYZ-Fy-5g8" secondAttribute="width" id="8kb-Sd-R7j"/>
+                                                        <constraint firstItem="5wZ-id-D52" firstAttribute="width" secondItem="LYZ-Fy-5g8" secondAttribute="width" id="Hye-p6-yn6"/>
                                                     </constraints>
                                                 </stackView>
-                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="4Rd-0F-roU">
-                                                    <rect key="frame" x="0.0" y="50" width="331" height="49.5"/>
+                                                <stackView opaque="NO" contentMode="scaleToFill" restorationIdentifier="CompanyLabel" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="4Rd-0F-roU">
+                                                    <rect key="frame" x="0.0" y="50" width="331" height="50"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="CompanyName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NKx-VZ-XXN">
-                                                            <rect key="frame" x="0.0" y="0.0" width="331" height="29"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="331" height="30"/>
                                                             <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="22"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" alpha="0.64999997615814209" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Company name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cmg-uI-jeo">
-                                                            <rect key="frame" x="0.0" y="29" width="331" height="20.5"/>
+                                                            <rect key="frame" x="0.0" y="30" width="331" height="20"/>
                                                             <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
                                                     <constraints>
-                                                        <constraint firstItem="NKx-VZ-XXN" firstAttribute="width" secondItem="4Rd-0F-roU" secondAttribute="width" id="D5T-f8-3Gq"/>
-                                                        <constraint firstItem="NKx-VZ-XXN" firstAttribute="leading" secondItem="4Rd-0F-roU" secondAttribute="leading" id="Lb1-V5-Alu"/>
-                                                        <constraint firstItem="NKx-VZ-XXN" firstAttribute="top" secondItem="4Rd-0F-roU" secondAttribute="top" id="Wqt-EO-jmP"/>
-                                                        <constraint firstItem="cmg-uI-jeo" firstAttribute="width" secondItem="NKx-VZ-XXN" secondAttribute="width" id="dj1-Nr-XmX"/>
-                                                        <constraint firstAttribute="trailing" secondItem="NKx-VZ-XXN" secondAttribute="trailing" id="ezc-TA-5Yl"/>
+                                                        <constraint firstItem="cmg-uI-jeo" firstAttribute="width" secondItem="NKx-VZ-XXN" secondAttribute="width" id="0PI-88-LJC"/>
+                                                        <constraint firstItem="NKx-VZ-XXN" firstAttribute="width" secondItem="4Rd-0F-roU" secondAttribute="width" id="Jly-I7-LP1"/>
+                                                        <constraint firstAttribute="bottom" secondItem="NKx-VZ-XXN" secondAttribute="bottom" constant="20" symbolic="YES" id="kgx-iS-XXy"/>
                                                     </constraints>
                                                 </stackView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="4Rd-0F-roU" firstAttribute="top" secondItem="LYZ-Fy-5g8" secondAttribute="bottom" id="Cpa-3e-kei"/>
-                                                <constraint firstItem="4Rd-0F-roU" firstAttribute="height" secondItem="LYZ-Fy-5g8" secondAttribute="height" id="K6H-ka-FWk"/>
-                                                <constraint firstAttribute="trailing" secondItem="LYZ-Fy-5g8" secondAttribute="trailing" id="KTf-s2-nEK"/>
-                                                <constraint firstItem="LYZ-Fy-5g8" firstAttribute="top" secondItem="WBE-WM-rTk" secondAttribute="top" id="NaD-IM-Dw6"/>
-                                                <constraint firstItem="4Rd-0F-roU" firstAttribute="width" secondItem="LYZ-Fy-5g8" secondAttribute="width" id="cEo-hV-ia8"/>
-                                                <constraint firstItem="LYZ-Fy-5g8" firstAttribute="leading" secondItem="WBE-WM-rTk" secondAttribute="leading" id="xvr-pa-VDf"/>
+                                                <constraint firstItem="4Rd-0F-roU" firstAttribute="width" secondItem="WBE-WM-rTk" secondAttribute="width" id="K1k-od-Ptz"/>
+                                                <constraint firstItem="LYZ-Fy-5g8" firstAttribute="top" secondItem="WBE-WM-rTk" secondAttribute="top" id="awH-WH-iux"/>
+                                                <constraint firstItem="4Rd-0F-roU" firstAttribute="top" secondItem="LYZ-Fy-5g8" secondAttribute="bottom" id="hmS-9N-wpi"/>
+                                                <constraint firstItem="LYZ-Fy-5g8" firstAttribute="width" secondItem="WBE-WM-rTk" secondAttribute="width" id="vWe-n2-HaW"/>
                                             </constraints>
                                         </stackView>
                                     </subviews>
