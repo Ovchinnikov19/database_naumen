@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06290E7C20D6E85700496706 /* ComputersDatabase.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06290E7B20D6E85700496706 /* ComputersDatabase.storyboard */; };
+		06290E7C20D6E85700496706 /* Database_naumen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06290E7B20D6E85700496706 /* Database_naumen.storyboard */; };
 		06290E7E20D6EAEE00496706 /* GetComputersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06290E7D20D6EAEE00496706 /* GetComputersResponse.swift */; };
 		06290E8020D6EB7000496706 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06290E7F20D6EB7000496706 /* NetworkError.swift */; };
 		06290E8320D6F08400496706 /* ComputersListNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06290E8220D6F08400496706 /* ComputersListNetworkService.swift */; };
@@ -22,7 +22,7 @@
 
 /* Begin PBXFileReference section */
 		060F60C520D6DD9800F81DDF /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		06290E7B20D6E85700496706 /* ComputersDatabase.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ComputersDatabase.storyboard; sourceTree = "<group>"; };
+		06290E7B20D6E85700496706 /* Database_naumen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Database_naumen.storyboard; sourceTree = "<group>"; };
 		06290E7D20D6EAEE00496706 /* GetComputersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetComputersResponse.swift; sourceTree = "<group>"; };
 		06290E7F20D6EB7000496706 /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		06290E8220D6F08400496706 /* ComputersListNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputersListNetworkService.swift; sourceTree = "<group>"; };
@@ -30,7 +30,7 @@
 		0688E34D20D458E100DC1620 /* ComputersListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputersListViewCell.swift; sourceTree = "<group>"; };
 		0688E34F20D474C400DC1620 /* ComputersListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputersListViewController.swift; sourceTree = "<group>"; };
 		0688E35120D4759800DC1620 /* Computer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Computer.swift; sourceTree = "<group>"; };
-		06F9CB4120D31F4B0021CD35 /* ComputerDatabaseTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComputerDatabaseTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06F9CB4120D31F4B0021CD35 /* Database_naumen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Database_naumen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06F9CB4420D31F4B0021CD35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06F9CB4B20D31F4D0021CD35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06F9CB4E20D31F4D0021CD35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				06F9CB4D20D31F4D0021CD35 /* LaunchScreen.storyboard */,
-				06290E7B20D6E85700496706 /* ComputersDatabase.storyboard */,
+				06290E7B20D6E85700496706 /* Database_naumen.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -148,7 +148,7 @@
 		06F9CB3820D31F4B0021CD35 = {
 			isa = PBXGroup;
 			children = (
-				06F9CB4320D31F4B0021CD35 /* ComputerDatabaseTest */,
+				06F9CB4320D31F4B0021CD35 /* Database_naumen */,
 				06F9CB4220D31F4B0021CD35 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -156,27 +156,27 @@
 		06F9CB4220D31F4B0021CD35 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				06F9CB4120D31F4B0021CD35 /* ComputerDatabaseTest.app */,
+				06F9CB4120D31F4B0021CD35 /* Database_naumen.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		06F9CB4320D31F4B0021CD35 /* ComputerDatabaseTest */ = {
+		06F9CB4320D31F4B0021CD35 /* Database_naumen */ = {
 			isa = PBXGroup;
 			children = (
 				06139DE520D4531C00328CEF /* Application */,
 				06139DE720D453BF00328CEF /* ComputersList */,
 				06139DE620D4534600328CEF /* Supporting files */,
 			);
-			path = ComputerDatabaseTest;
+			path = Database_naumen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		06F9CB4020D31F4B0021CD35 /* ComputerDatabaseTest */ = {
+		06F9CB4020D31F4B0021CD35 /* Database_naumen */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 06F9CB5320D31F4D0021CD35 /* Build configuration list for PBXNativeTarget "ComputerDatabaseTest" */;
+			buildConfigurationList = 06F9CB5320D31F4D0021CD35 /* Build configuration list for PBXNativeTarget "Database_naumen" */;
 			buildPhases = (
 				06F9CB3D20D31F4B0021CD35 /* Sources */,
 				06F9CB3E20D31F4B0021CD35 /* Frameworks */,
@@ -186,9 +186,9 @@
 			);
 			dependencies = (
 			);
-			name = ComputerDatabaseTest;
+			name = Database_naumen;
 			productName = ComputerDatabaseTest;
-			productReference = 06F9CB4120D31F4B0021CD35 /* ComputerDatabaseTest.app */;
+			productReference = 06F9CB4120D31F4B0021CD35 /* Database_naumen.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 06F9CB3C20D31F4B0021CD35 /* Build configuration list for PBXProject "ComputerDatabaseTest" */;
+			buildConfigurationList = 06F9CB3C20D31F4B0021CD35 /* Build configuration list for PBXProject "Database_naumen" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,7 +219,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				06F9CB4020D31F4B0021CD35 /* ComputerDatabaseTest */,
+				06F9CB4020D31F4B0021CD35 /* Database_naumen */,
 			);
 		};
 /* End PBXProject section */
@@ -230,7 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06F9CB4F20D31F4D0021CD35 /* LaunchScreen.storyboard in Resources */,
-				06290E7C20D6E85700496706 /* ComputersDatabase.storyboard in Resources */,
+				06290E7C20D6E85700496706 /* Database_naumen.storyboard in Resources */,
 				06F9CB4C20D31F4D0021CD35 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,7 +390,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N48MLAKUG2;
-				INFOPLIST_FILE = "$(SRCROOT)/ComputerDatabaseTest/Supporting files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Database_naumen/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -408,7 +408,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N48MLAKUG2;
-				INFOPLIST_FILE = "$(SRCROOT)/ComputerDatabaseTest/Supporting files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Database_naumen/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -423,7 +423,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		06F9CB3C20D31F4B0021CD35 /* Build configuration list for PBXProject "ComputerDatabaseTest" */ = {
+		06F9CB3C20D31F4B0021CD35 /* Build configuration list for PBXProject "Database_naumen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				06F9CB5120D31F4D0021CD35 /* Debug */,
@@ -432,7 +432,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		06F9CB5320D31F4D0021CD35 /* Build configuration list for PBXNativeTarget "ComputerDatabaseTest" */ = {
+		06F9CB5320D31F4D0021CD35 /* Build configuration list for PBXNativeTarget "Database_naumen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				06F9CB5420D31F4D0021CD35 /* Debug */,
