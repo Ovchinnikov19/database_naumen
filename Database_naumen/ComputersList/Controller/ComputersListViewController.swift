@@ -24,14 +24,14 @@ class ComputersListViewController: UITableViewController {
         spinner.startAnimating()
         tableView.addSubview(spinner)
         
+        NSLayoutConstraint(item: spinner, attribute: .centerX, relatedBy: .equal, toItem: tableView, attribute: .centerX, multiplier: 1, constant: 0).isActive = true
+        NSLayoutConstraint(item: spinner, attribute: .centerY, relatedBy: .equal, toItem: tableView, attribute: .centerY, multiplier: 0.85, constant: 0).isActive = true
+        
         refreshControl = UIRefreshControl()
         refreshControl?.backgroundColor = .white
         refreshControl?.tintColor = #colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)
         refreshControl?.addTarget(self, action: #selector(getComputersList), for: .valueChanged)
-        
-        NSLayoutConstraint(item: spinner, attribute: .centerX, relatedBy: .equal, toItem: tableView, attribute: .centerX, multiplier: 1, constant: 0).isActive = true
-        NSLayoutConstraint(item: spinner, attribute: .centerY, relatedBy: .equal, toItem: tableView, attribute: .centerY, multiplier: 0.85, constant: 0).isActive = true
-        
+
         getComputersList()
         
     }
@@ -46,7 +46,6 @@ class ComputersListViewController: UITableViewController {
                 self.tableView.reloadData()
                 self.spinner.stopAnimating()
                 self.refreshControl?.endRefreshing()
-                
             }
         }
     }
